@@ -1,5 +1,7 @@
 Clear-Host
 
+#I hate feeling stupid. And I'm hungry.
+
 $ScriptName = $MyInvocation.MyCommand.Name -replace '.ps1'
 $ScriptPath = $MyInvocation.MyCommand.Definition -replace $MyInvocation.MyCommand.Name
 $ScriptDate = Get-Date -Format yyMMddHHmm
